@@ -6,8 +6,8 @@ class DecimalToBinary{
 		String binary="";
 		while(input>0)
 		{
-			binary=binary+(input%2);
-			input=input/2;
+			binary = binary + (input%2);
+			input = input/2;
 		}
 		System.out.print("The binary equivalent of "+input+" is ");
 		for(int i=binary.length()-1; i>=0; i--)
